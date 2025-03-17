@@ -23,28 +23,18 @@ final class MovieService : MovieServiceProtocol {
         guard let url = URL(string: "\(baseURL)/discover/movie?api_key=\(apiKey)") else {
             throw NetworkError.badURL
         }
-        return try await fetchMovies(url: url)
+        
+        let movieResponse: MovieResponse = try await networkManager.fetch(url: url)
+        return movieResponse.results
     }
-    
+
     func searchMovies(query: String) async throws -> [MovieAPIResponse] {
         guard let url = URL(string: "\(baseURL)/search/movie?query=\(query)&api_key=\(apiKey)") else {
             throw NetworkError.badURL
         }
-        return try await fetchMovies(url: url)
+
+        let movieResponse: MovieResponse = try await networkManager.fetch(url: url) 
+        return movieResponse.results
     }
-    
-    private func fetchMovies(url: URL) async throws -> [MovieAPIResponse] {
-        let (data, response) = try await URLSession.shared.data(from: url)
-        
-        guard let httpResponse = response as? HTTPURLResponse, httpResponse.statusCode == 200 else {
-            throw NetworkError.invalidResponse
-        }
-        
-        do {
-            let movieResponse = try JSONDecoder().decode(MovieResponse.self, from: data)
-            return movieResponse.results
-        } catch {
-            throw NetworkError.decodingFailed
-        }
-    }
+
 }

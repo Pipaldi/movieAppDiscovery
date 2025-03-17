@@ -23,49 +23,269 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "C7AAA387-CCA7-4C09-867A-FEEA5478E3B8"
+            uuid = "5475559B-DCF8-452C-B8E8-AC9352A85807"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "movieAppDiscovery/Services/NetworkManager.swift"
+            filePath = "movieAppDiscovery/Views/MovieListViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "11"
-            endingLineNumber = "11"
-            landmarkName = "fetch(url:)"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "viewDidLoad()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5475559B-DCF8-452C-B8E8-AC9352A85807 - cd55a99cf80b0077"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "movieAppDiscovery.MovieListViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "movieAppDiscovery.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luisfernandoag/Desktop/movieAppDiscovery/movieAppDiscovery/Views/MovieListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19">
+               </Location>
+               <Location
+                  uuid = "5475559B-DCF8-452C-B8E8-AC9352A85807 - 4304d3be2fea5d27"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () async -&gt; () in movieAppDiscovery.MovieListViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "movieAppDiscovery.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luisfernandoag/Desktop/movieAppDiscovery/movieAppDiscovery/Views/MovieListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19">
+               </Location>
+               <Location
+                  uuid = "5475559B-DCF8-452C-B8E8-AC9352A85807 - f2396f2f069491db"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 () async -&gt; () in movieAppDiscovery.MovieListViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "movieAppDiscovery.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luisfernandoag/Desktop/movieAppDiscovery/movieAppDiscovery/Views/MovieListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19">
+               </Location>
+               <Location
+                  uuid = "5475559B-DCF8-452C-B8E8-AC9352A85807 - 183896b985137567"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 () async -&gt; () in movieAppDiscovery.MovieListViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "movieAppDiscovery.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luisfernandoag/Desktop/movieAppDiscovery/movieAppDiscovery/Views/MovieListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19">
+               </Location>
+               <Location
+                  uuid = "5475559B-DCF8-452C-B8E8-AC9352A85807 - 38c45bfe44522dc5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 () async -&gt; () in movieAppDiscovery.MovieListViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "movieAppDiscovery.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luisfernandoag/Desktop/movieAppDiscovery/movieAppDiscovery/Views/MovieListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "61121BC4-32B2-4A18-8614-9361A705E07B"
+            uuid = "80E1801D-E748-4ACD-9A06-46D309F4B957"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "movieAppDiscovery/Services/NetworkManager.swift"
+            filePath = "movieAppDiscovery/ViewModels/MovieListViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "14"
-            endingLineNumber = "14"
-            landmarkName = "fetch(url:)"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "fetchMovies()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "80E1801D-E748-4ACD-9A06-46D309F4B957 - 754c52ea0cc614bf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for movieAppDiscovery.MovieListViewModel.fetchMovies() async -&gt; ()"
+                  moduleName = "movieAppDiscovery.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luisfernandoag/Desktop/movieAppDiscovery/movieAppDiscovery/ViewModels/MovieListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27">
+               </Location>
+               <Location
+                  uuid = "80E1801D-E748-4ACD-9A06-46D309F4B957 - 98c2fed52841dc6e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for movieAppDiscovery.MovieListViewModel.fetchMovies() async -&gt; ()"
+                  moduleName = "movieAppDiscovery.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luisfernandoag/Desktop/movieAppDiscovery/movieAppDiscovery/ViewModels/MovieListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27">
+               </Location>
+               <Location
+                  uuid = "80E1801D-E748-4ACD-9A06-46D309F4B957 - afc455f010f0573d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for movieAppDiscovery.MovieListViewModel.fetchMovies() async -&gt; ()"
+                  moduleName = "movieAppDiscovery.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luisfernandoag/Desktop/movieAppDiscovery/movieAppDiscovery/ViewModels/MovieListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27">
+               </Location>
+               <Location
+                  uuid = "80E1801D-E748-4ACD-9A06-46D309F4B957 - cd002a74e60689fc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for movieAppDiscovery.MovieListViewModel.fetchMovies() async -&gt; ()"
+                  moduleName = "movieAppDiscovery.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luisfernandoag/Desktop/movieAppDiscovery/movieAppDiscovery/ViewModels/MovieListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "3F0D9208-A613-4048-8DF8-CF553780CAB7"
+            uuid = "C06A944E-2973-4C07-8518-E87F8FB5FCDF"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "movieAppDiscovery/Services/NetworkManager.swift"
+            filePath = "movieAppDiscovery/Services/MovieService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
-            landmarkName = "fetch(url:)"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "init(networkManager:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C06A944E-2973-4C07-8518-E87F8FB5FCDF - 3ba301daf04b1f2e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "default argument 0 of movieAppDiscovery.MovieService.init(networkManager: movieAppDiscovery.NetworkServiceProtocol) -&gt; movieAppDiscovery.MovieService"
+                  moduleName = "movieAppDiscovery.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luisfernandoag/Desktop/movieAppDiscovery/movieAppDiscovery/Services/MovieService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18">
+               </Location>
+               <Location
+                  uuid = "C06A944E-2973-4C07-8518-E87F8FB5FCDF - 468088649c4fabbe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "movieAppDiscovery.MovieService.__allocating_init(networkManager: movieAppDiscovery.NetworkServiceProtocol) -&gt; movieAppDiscovery.MovieService"
+                  moduleName = "movieAppDiscovery.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luisfernandoag/Desktop/movieAppDiscovery/movieAppDiscovery/Services/MovieService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "C06A944E-2973-4C07-8518-E87F8FB5FCDF - 7bdf791b389c8e2a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "movieAppDiscovery.MovieService.init(networkManager: movieAppDiscovery.NetworkServiceProtocol) -&gt; movieAppDiscovery.MovieService"
+                  moduleName = "movieAppDiscovery.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luisfernandoag/Desktop/movieAppDiscovery/movieAppDiscovery/Services/MovieService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9B1CD853-884B-489B-AE3A-0437CD4DEACF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "movieAppDiscovery/Services/MovieService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "getMovies()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9B1CD853-884B-489B-AE3A-0437CD4DEACF - 72bcef1fd6b5c7d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "movieAppDiscovery.MovieService.getMovies() async throws -&gt; Swift.Array&lt;movieAppDiscovery.MovieAPIResponse&gt;"
+                  moduleName = "movieAppDiscovery.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luisfernandoag/Desktop/movieAppDiscovery/movieAppDiscovery/Services/MovieService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22">
+               </Location>
+               <Location
+                  uuid = "9B1CD853-884B-489B-AE3A-0437CD4DEACF - 8284a8684b592318"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for movieAppDiscovery.MovieService.getMovies() async throws -&gt; Swift.Array&lt;movieAppDiscovery.MovieAPIResponse&gt;"
+                  moduleName = "movieAppDiscovery.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luisfernandoag/Desktop/movieAppDiscovery/movieAppDiscovery/Services/MovieService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
