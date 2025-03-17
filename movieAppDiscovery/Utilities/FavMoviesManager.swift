@@ -8,7 +8,7 @@
 import Foundation
 import Foundation
 
-class FavMoviesManager {
+final class FavMoviesManager {
     static let shared = FavMoviesManager()
     private let favoritesKey = "favoriteMovies"
     

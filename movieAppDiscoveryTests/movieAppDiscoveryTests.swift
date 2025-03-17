@@ -9,16 +9,16 @@ import Testing
 import XCTest
 @testable import movieAppDiscovery
 
-final class MovieListViewModelTests: XCTestCase {
-    private var viewModel: MovieListViewModel!
+class MovieListViewModelTests: XCTestCase {
+    private var viewModel: MovieListViewModelProtocol!
     private var mockMovieService: MockMovieService!
-    
+
     override func setUp() {
         super.setUp()
         mockMovieService = MockMovieService()
         viewModel = MovieListViewModel(movieService: mockMovieService)
     }
-    
+
     override func tearDown() {
         viewModel = nil
         mockMovieService = nil
@@ -59,18 +59,18 @@ final class MovieListViewModelTests: XCTestCase {
 }
 
 // MARK: - Mock Movie Service
-final class MockMovieService: MovieService {
+final class MockMovieService: MovieServiceProtocol {
     var mockMovies: [MovieAPIResponse] = []
     var shouldReturnError = false
     
-    override func getMovies() async throws -> [MovieAPIResponse] {
+    func getMovies() async throws -> [MovieAPIResponse] {
         if shouldReturnError {
             throw NetworkError.requestFailed
         }
         return mockMovies
     }
     
-    override func searchMovies(query: String) async throws -> [MovieAPIResponse] {
+    func searchMovies(query: String) async throws -> [MovieAPIResponse] {
         if shouldReturnError {
             throw NetworkError.requestFailed
         }

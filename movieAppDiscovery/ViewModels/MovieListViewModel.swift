@@ -6,15 +6,15 @@
 //
 
 import Foundation
-class MovieListViewModel {
+final class MovieListViewModel: MovieListViewModelProtocol {
     var movies: [MovieAPIResponse] = []
     var isLoading: Bool = false
     var errorMessage: String?
     
-    private let movieService: MovieService
+    private let movieService: MovieServiceProtocol
     var updateHandler: (() -> Void)?
     
-    init(movieService: MovieService = MovieService()) {
+    init(movieService: MovieServiceProtocol = MovieService()) {
         self.movieService = movieService
     }
     
@@ -55,4 +55,3 @@ class MovieListViewModel {
         updateHandler?()
     }
 }
-
