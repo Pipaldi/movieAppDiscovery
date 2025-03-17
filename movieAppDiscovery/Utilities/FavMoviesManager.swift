@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import Foundation
 
 final class FavMoviesManager {
     static let shared = FavMoviesManager()
